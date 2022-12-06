@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+  display: flex;
+  width: 1440px;
+  height: 56px;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  font-family: roboto;
+}
+
+
+/*MENU HAMBURGUER*/
+.menu {
+  padding: 6px 0 0 24px;
+  width: 24px;
+  height: 24px;
+}
+
+#checkbox-menu{
+    position: absolute;
+    opacity: 0;
+  }
+
+label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+  }
+
+label span{
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 100%;
+    border-radius: 30px;
+    background: #000000;
+  }
+
+  label span:nth-child(1){
+    top: 0;
+  }
+  
+  label span:nth-child(2){
+    top: 7px;
+  }
+  
+  label span:nth-child(3){
+    top: 14px;
+  } 
+/* Fim do MENU */
+
+
+  .logo img {
+    position: relative;
+    width: 90px;
+    height: 20px;
+    padding-top: 3px;
+  }
+
+
+  /* PESQUISAR */
+  #divBusca{
+    background-color:#ffffff;
+    border:solid 2px #5F9EA0;
+    width:300px;
+    height:32px;
+    justify-content: center;
+    margin: 0 400px 0 320px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:230px;
+  }
+  
+  #btnBusca{
+    border: none;
+    float:right;
+    height:32px;
+    width:60px;
+    font-weight:bold;
+    background: rgb(248, 248, 248);
+  }
+
+  #btnBusca img{
+    height: 27px;
+    width: 27px;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+  }  
+/* Fim PESQUISAR */
+
+  .video_icon img {
+    width: 24px;
+    height: 24px;
+    padding-top: 2px;
+  }
+
+  .bell_icon img {
+    width: 24px;
+    height: 24px;
+    padding-top: 2px;
+  }
+ 
+  .perfil img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+  }
+
+  .conteudo {
+    background-color: #F9F9F9;
+    width: 1440px;
+    height: 1024px;
+  }
+
+  .video {
+    width: 952px;
+    height: 537px;
+    padding-top: 28px;
+    padding-left: 75px;
+  }
+
+  .cont_esqd {
+    width: 952px;
+    font-family: roboto;
+  }
+
+  .cont_esqd h1 {
+    font-size: 20px;
+    padding-left: 75px;
+    font-weight: 600;
+
+  }
+
+  .likes {
+    display: flex;
+    padding: 0 0 0 75px;
+    width: 952px;
+  }
+
+  .likes_img {
+    padding-right: 10px;
+  }
+
+  .likes_img img {
+    border-radius: 30px;
+  }
+
+  .dio {
+    padding-top: 5px;
+  }
+
+  .dio h3 {
+    margin: 0;
+    padding: 0 0 0 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .dio p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  .inscreva {
+    padding: 0 40px 0 40px;
+  }
+
+  .classe1 {
+    display: flex;
+    padding-right: 30px;
+  }
+
+  .classe1 img {
+    padding: 5px 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+  .classe1 p {
+    padding: 5px 0 0 10px;
+    margin: 0 0 0 0;
+  }
+
+  .rodape {
+    padding: 0 0 0 75px;
+  }
+
+  .rodape p {
+    width: 510px;
+  }
+
+  /* Coluna da direita */
+
+  .cont_dir {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    
+  }
+
+  .thumbs {
+    display: flex;
+    
+  }
+
+
+  .imagem1_dir img {
+    width: 160px;
+    height: 90px;
+    display: flex;
+    padding-top: 28px;
+    padding-right: 16px;
+  }
+
+  .text_dir {
+    padding-top: 28px;
+    padding-right: 16px;
+  }
+
+  .text_dir h3 {
+    font-size: 14px;
+    width: 196px;
+    margin: 0;
+    padding-bottom: 8px;
+    
+  }
+
+  .text_dir p {
+    margin: 0;
+    font-size: 12px;
+    width: 196px;
+  }
+ 
+  .subtit {
+    padding-bottom: 8px;
+  }
